@@ -1,0 +1,171 @@
+
+h1 {
+    font-family: 'Gaegu', cursive;
+    font-size: 33px;
+    margin: 0 auto; 
+}
+p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+    margin: 10px; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin: 10px auto;
+}
+.Boring {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.Boring img {
+    max-width: 60%;
+    width: 20%;
+    border-radius: 100%;
+    margin-right: 20px; 
+}
+
+
+.container header nav a {
+    margin: 0 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    background: #FF764E; 
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 10px;
+
+}
+
+.container header nav {
+    display: flex;
+    justify-content: center;
+    gap: 450px;
+    padding: 10px 0;
+}
+
+.container header nav a.Bilgi-edinin {
+    background: #5ED3EB; 
+}
+
+.container header nav a.Karsilastirin {
+    background: #FFCD69; 
+}
+
+.container header nav a:hover {
+    color: black; 
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-row-p{
+    max-width: 60%;
+    margin: 0 auto;
+    color:white;
+    background-color: #DDB9A3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+}
+.kucuk-resim {
+    margin-top: 20px;
+    width: 60px;
+    max-width: 20%; 
+}
+
+.siyah-vurgu {
+    color: black;
+    font-weight: bold;
+}
+.Container p {
+    max-width: 250px; 
+}
+.Container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+}
+.kucuk-resim2 {
+    margin-top: 20px;
+    width: 60px;
+    max-width: 20%; 
+}
+
+.siyah-vurgu2 {
+    color: black;
+    font-weight: bold;
+}
+.Container2 p {
+    max-width: 250px; 
+}
+.SectionClass img {
+    width: 100%; 
+    height: 200px;
+    display: block;
+    object-fit: cover;
+    object-position: 100% 15%;
+     
+}
+footer .footer-container nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F9E7DC; 
+    padding: 20px; 
+    gap: 450px;
+}
+
+footer .footer-container p {
+    font-weight: bold; 
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0 auto; 
+}
+
+footer .footer-container nav a {
+    margin: 0 10px; 
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 20px;
+    color: #F9E7DC;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background: #FF764E;
+}
+
+footer .footer-container nav a.Bilgi-edinin {
+    background: #5ED3EB; 
+}
+
+footer .footer-container nav a.Karsilastirin {
+    background: #FFCD69; 
+}
+
+footer .footer-container nav a:hover {
+    color: black; 
+}
+
+
